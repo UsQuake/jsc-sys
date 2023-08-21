@@ -1,0 +1,10 @@
+--- makefile.cargo.orig	2023-08-21 17:51:24.725601900 +0900
++++ makefile.cargo	2023-08-21 21:05:08.614953600 +0900
+@@ -35,6 +35,7 @@
+ CMAKE_ARGS += " -DCMAKE_CXX_COMPILER=${CXX}"
+ CMAKE_ARGS += " -DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
+ CMAKE_ARGS += " -DCMAKE_CXX_FLAGS='-fsanitize=address'"
++CMAKE_ARGS += " -DPython_EXECUTABLE=/usr/bin/python"
+ 
+ ifeq (${OS},Darwin)
+ CMAKE_ARGS += " -DCMAKE_CXX_FLAGS='-stdlib=libc++'"
