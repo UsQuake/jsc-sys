@@ -1,0 +1,3 @@
+[submodule "WebKit@1fea69c"]
+	path = WebKit@1fea69c
+	url = https://github.com/WebKit/WebKit.git
