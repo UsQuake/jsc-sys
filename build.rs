@@ -101,7 +101,8 @@ fn main() {
     println!("cargo:rustc-link-lib=static=JavaScriptCore");
     println!("cargo:rustc-link-lib=static=WTF");
     println!("cargo:rustc-link-lib=static=bmalloc");
-
+    println!("cargo:rustc-link-lib=atomic");
+    
     if cfg!(target_os = "macos") {
         // x86_64-apple-darwin
         println!("cargo:rustc-link-lib=icucore");
