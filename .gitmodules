@@ -1,6 +1,0 @@
-[submodule "WebKit"]
-	path = WebKit
-	url = https://github.com/WebKit/WebKit.git
-	branch = main
-[submodule "https://github.com/WebKit/WebKit.git"]
-	url = WebKit
